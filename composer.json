@@ -1,0 +1,22 @@
+{
+    "name": "carstenwindler/my-friends",
+    "description": "Examples used for the talk 'With a little help from my friends' on the IPC 2023 in Berlin",
+    "type": "project",
+    "require": {
+        "php": ">=8"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "rector/rector": "^0.16.0",
+        "friendsofphp/php-cs-fixer": "^3.16",
+        "phpmd/phpmd": "^2.13",
+        "phpmetrics/phpmetrics": "^2.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carsten Windler",
+            "email": "carsten@carstenwindler.de"
+        }
+    ]
+}
