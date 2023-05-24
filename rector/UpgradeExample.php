@@ -10,14 +10,15 @@ class UpgradeExample
     {
         switch ($input) {
             case 'one':
-                $returnValue = 1;
+                return 1;
                 break;
 
             case 'two':
-                $returnValue = 2;
+                return 2;
                 break;
-        }
 
-        return $returnValue;
+            default:
+                return 3;
+        }
     }
 }
