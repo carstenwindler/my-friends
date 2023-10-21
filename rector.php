@@ -8,7 +8,7 @@ use Rector\Set\ValueObject\SetList;
 
 return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->paths([
-        __DIR__ . '/rector',
+        __DIR__ . '/example-rector',
     ]);
 
     // define sets of rules
