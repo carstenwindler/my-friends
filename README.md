@@ -37,4 +37,11 @@ Result is correct now
 ## 4. Rector
 
 `vendor/bin/rector process --dry-run`
+
+`vendor/bin/rector process`
+
+Add string type hint
+
+`vendor/bin/rector process --dry-run`
+
 `vendor/bin/rector process`

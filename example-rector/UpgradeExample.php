@@ -3,10 +3,10 @@
 class UpgradeExample
 {
     /**
-     * @return int
      * @param string $input
+     * @return int
      */
-    public function switchAndMatch(string $input): int
+    public function switchAndMatch($input)
     {
         switch ($input) {
             case 'one':
